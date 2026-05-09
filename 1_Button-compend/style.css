@@ -1,0 +1,96 @@
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    margin: 30px;
+    font-family:system-ui;
+}
+h2{
+    font-style: italic;
+    text-align: justify;
+}
+.row{
+   margin-bottom: 25px;
+   line-height: 50px;
+}
+
+.btn{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #ededed;
+    transition: all 0.3s, ease;
+}
+.btn:hover{
+    background-color: rgb(212,211,211);
+
+}
+.btn:active{
+    transform: scale(0.95);
+}
+.btn-primary{
+    background-color: blue;
+    color: white;
+}
+.btn-primary:hover{
+    background-color: rgb(210,200,158);
+}
+.btn-secondary{
+    background-color: orange;
+    color: white;
+}
+.btn-secondary:hover{
+    background-color: rgb(9, 218, 246);
+}
+.btn-third{
+    background-color: green;
+    color: white;
+}
+.btn-third:hover{
+    background-color: rgb(0, 12, 1);
+}
+.btn-forth{
+    background-color: transparent;
+}
+.btn-primaryoutline{
+    background-color: transparent;
+    outline: 1px solid #017de2;
+    color: #017de2;
+}
+.btn-primaryoutline:hover{
+    background-color: #017de2;
+    color: white;
+}
+.btn-secondaryoutline{
+    background-color: transparent;
+    outline: 1px solid #05ed53;
+    color: #05ed53;
+}
+.btn-secondaryoutline:hover{
+    background-color: #017de2;
+    color: white;
+}
+.btn-thirdoutline{
+    background-color: transparent;
+    outline: 1px solid #f10505;
+    color: #f10505;
+}
+.btn-thirdoutline:hover{
+    background-color: #f10505;
+    color: white;
+}
+.btn-forthoutline{
+    background-color: transparent;
+    
+}
+.btn-forthoutline:hover{
+    background-color: #f402d8;
+    color: white;
+}

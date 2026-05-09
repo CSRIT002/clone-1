@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    font-family: system-ui;
+    background-color: aquamarine;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 50px;
+    border-bottom: 1px solid rgb(97,97, 97);
+}
+.navbar .logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar .nav{
+    display: flex;
+    font-size: 14;
+    gap: 25px;
+}
+.navbar .nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 8px 8px;
+    
+    border-radius: 10px;
+    margin: 0px 5px;
+    transition: all 0.1s ease-in-out;
+}
+.navbar .nav a:hover{
+    background-color: rgb(9, 24, 239);
+    color: white;
+    transform: scale(1.1) rotate(360deg);
+}
